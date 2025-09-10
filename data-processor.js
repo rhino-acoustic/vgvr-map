@@ -1,5 +1,5 @@
 const fs = require('fs');
-const csv = require('csv-parser');
+// csv-parser 완전 제거됨 - 2025-09-11
 const path = require('path');
 const GoogleSheetsService = require('./google-sheets');
 const sharp = require('sharp');
@@ -884,5 +884,3 @@ class DataProcessor {
 }
 
 module.exports = DataProcessor;
-/ /   c s v - p a r s e r   r e m o v e d   0 9 / 1 1 / 2 0 2 5   0 2 : 0 6 : 5 9  
- 
